@@ -107,7 +107,6 @@ nav {
     margin: 10px;
     font-family: serif;
     text-align: justify;
-    font-size: 20px;
 }
 
 h4 {
@@ -156,10 +155,6 @@ h4 {
 
 #projects {
     margin: 20px 20px;
-}
-
-.second-para {
-    text-indent: 50px;
 }
 
 .projectbox {
