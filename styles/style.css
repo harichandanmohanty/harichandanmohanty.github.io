@@ -19,7 +19,7 @@ nav {
 
 .content {
     margin: auto;
-    padding-top: 70px;
+    padding-top: 50px;
     max-width: 1100px;
 }
 
@@ -33,7 +33,7 @@ nav {
 }
 
 .idLeft {
-    margin: 20px 60px 20px 0px;
+    margin: 20px 60px;
 }
 
 .profile-pic {
@@ -67,15 +67,15 @@ nav {
 
 .identity {
     text-align: center;
-    margin: 0px 43px;
+    margin: 0px 40px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skill-style {
     display: inline-block;
     background-color: #ffffff;
-    /* box-shadow: 2px 4px 6px #919090; */
     border: solid 1px #ffffff;
     padding: 4px;
     border-radius: 5px;
@@ -84,14 +84,11 @@ nav {
 
 
 #about, #skills {
-    text-align: center;
     font-size: 1.2em;
     border-radius: 8px;
     background-color:rgb(255, 217, 204);
-}
-
-#skills {
-    width: 720px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 #about {
@@ -130,12 +127,15 @@ h4 {
 
 .box {
     display: flex;
-    margin: 20px 0px;
+    margin: 0px 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .innerbox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .fab, .far {
@@ -154,6 +154,10 @@ h4 {
     color: #0a66c2
 }
 
+#projects {
+    margin: 20px 40px;
+}
+
 .second-para {
     text-indent: 50px;
 }
@@ -161,13 +165,13 @@ h4 {
 .projectbox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .imgcontainer {
     display: block;
-    text-decoration: none;
     box-shadow:  0px 0px 15px #919090;
-    margin: 58px;
+    margin: 45px;
     margin-bottom: 30px;
     border-radius: 10px;
 }
