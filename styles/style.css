@@ -1,6 +1,7 @@
 body {
     background-color: rgb(250, 250, 243);
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .profile {
@@ -84,7 +85,6 @@ nav {
 
 
 #about, #skills {
-    font-size: 1.2em;
     border-radius: 8px;
     background-color:rgb(255, 217, 204);
     width: 100%;
@@ -96,8 +96,7 @@ nav {
 }
 
 .subheading {
-    font-family: monospace;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0%;
     color: #248995;
     background-color:antiquewhite;
@@ -105,7 +104,6 @@ nav {
 
 #about p {
     margin: 10px;
-    font-family: serif;
     text-align: justify;
 }
 
@@ -178,7 +176,6 @@ h4 {
 
 .projecttitle {
     text-align: center;
-    font-family: serif;
     color: #543737;
     margin: 10px;
 }
