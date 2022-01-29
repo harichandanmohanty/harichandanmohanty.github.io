@@ -60,7 +60,6 @@ body {
 
 h1 {
     font-size: 2.5em;
-    font-weight: 700;
 }
 
 h2 {
@@ -71,6 +70,9 @@ h3 {
     font-size: 1.5em;
 }
 
+.header {
+    font-weight: 700;
+}
 
 p {
     font-size: 1.3em;
@@ -155,7 +157,7 @@ nav {
 
 .welcome {
     font-family: cursive;
-    font-size: 2em;
+    font-size: 2.5em;
     padding: 2px;
     margin: 45px;
 }
@@ -178,6 +180,7 @@ nav {
 .subheading {
     margin: 0px;
     padding: 5px;
+    font-weight: 600;
     background-color:antiquewhite;
 }
 
