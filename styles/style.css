@@ -58,6 +58,32 @@ body {
     font-family: "Merriweather", "Garamond", "Georgia", serif;
 }
 
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+
+p {
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+b {
+    font-weight: bold;
+}
+
+
 nav {
     box-sizing: border-box;
     text-align: center;  
@@ -70,6 +96,7 @@ nav {
 
 .content {
     margin: 7vh auto;
+    padding-top: 40px;
     max-width: 1100px;
 }
 
@@ -123,39 +150,14 @@ nav {
 .headings {
     text-align: center;
     margin: 10px 0px 20px 0px;
-    font-weight: 500;
     color: #248995;
-}
-
-h1 {
-    font-size: 2.5em;
-}
-
-h2 {
-    font-size: 2em;
-}
-
-h3 {
-    font-size: 1.5em;
-}
-
-
-p {
-    font-size: 1.3em;
-    line-height: 1.5;
-    letter-spacing: normal;
-    word-spacing: normal;
-}
-
-b {
-    font-weight: bold;
 }
 
 .welcome {
     font-family: cursive;
-    font-size: 1.7em;
+    font-size: 2em;
     padding: 2px;
-    margin: 55px;
+    margin: 45px;
 }
 
 .box {
