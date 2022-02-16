@@ -81,7 +81,6 @@ body {
 .header {
     position: sticky;
     top: 0px;
-    box-shadow: 2px 0px 5px #838181;
 }
 
 .navigate {
@@ -94,18 +93,24 @@ body {
     color: #0c7185;
     text-decoration: none;
     padding: 5px;
-    font-weight: bold;
+    font-weight: 500;
+}
+
+hr {
+    margin: 0px;
+    opacity: 0.2;
 }
 
 .identity {
     background: #0c7185;
-    background: linear-gradient(90deg, #0c7185 0%, #3496a8 100%);
+    background: linear-gradient(180deg, #0c7185 0%, #3496a8 100%);
     color: #ffffff;
     text-align: center;
+    margin: 0px 5px;
 }
 
 .identity .box {
-    padding: 8vh 0vh;
+    padding: 7vh 0vh;
 }
 
 .name {
@@ -124,6 +129,12 @@ body {
 }
 
 img {
+    box-sizing: border-box;
+    width: 210px;
+    height: 210px;
+}
+
+.profile-pic {
     border: 5px solid #ffffff;
     border-radius: 105px;
 }
@@ -161,13 +172,54 @@ strong {
     background-color: #4dacbd;
 }
 
+.projectbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgcontainer {
+    display: block;
+    margin-right: 55px;
+}
+
+.project-desc, .projectimg {
+    text-align: center;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+.projecttitle {
+    font-size: 1rem;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.icons {
+    text-decoration: none;
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+.far {
+    color: #df0f0f;
+}
+
+.fa-github {
+    color: #212529;
+}
+
+.fa-linkedin {
+    color: #0a66c2
+}
+
 @media screen and (min-width: 900px) {
     .box {
         width: 800px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .name {
         font-size: 8vw;
         padding:  2vw 0vh;
