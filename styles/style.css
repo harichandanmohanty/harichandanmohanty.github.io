@@ -128,6 +128,16 @@ hr {
     padding: 70px 0px;
 }
 
+.resume {
+    background-color: #fdfdfd;
+    padding: 5px;
+    border: 1px solid #dbd7d7;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #bb2e2e;
+    font-weight: bold;
+}
+
 img {
     box-sizing: border-box;
     width: 210px;
