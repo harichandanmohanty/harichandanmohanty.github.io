@@ -290,6 +290,14 @@ strong {
 }
 
 .contact {
+    text-align: center;
+}
+
+.contact .icons {
+    margin: 10px;
+}
+
+.contact-top {
     float: right;
     margin: 0px;
     text-align: start;
@@ -334,10 +342,11 @@ strong {
     }
 
     #headercontent {
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
 
-    .contact {
+    .contact-top {
+        display: none;
         float: none;
         padding-top: 0px;
     }
