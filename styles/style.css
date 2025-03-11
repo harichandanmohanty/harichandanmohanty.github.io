@@ -369,8 +369,8 @@ strong {
         font-size: 1rem;
     }
 
-    .rolelocation, .roletitle {
-        font-size: 0.8rem;
+    .rolelocation, .roletitle, .timeline {
+        font-size: 0.9rem;
     }
 
     .roledesc {
