@@ -121,7 +121,7 @@ hr {
 } */
 
 .expparent {
-    background-color: cadetblue;
+    background-color: black;
     display: flex;
     flex-direction: row;
     box-shadow: 0px 10px 15px 0px #000000;
