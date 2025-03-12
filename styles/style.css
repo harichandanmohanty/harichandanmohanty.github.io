@@ -290,10 +290,13 @@ strong {
 }
 
 .contact {
+    display: block;
+    float: none;
     text-align: center;
 }
 
 .contact .icons {
+    display: inline;
     margin: 10px;
 }
 
@@ -349,6 +352,10 @@ strong {
         display: none;
         float: none;
         padding-top: 0px;
+    }
+
+    .contact {
+        display: block;
     }
 
     .icons {
